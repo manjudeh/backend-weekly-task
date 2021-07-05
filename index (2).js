@@ -1,11 +1,11 @@
 function confirmEnding(string, target) {
     if (string.substr(-target.length) === target) {
-      return true;
+ alert(true);
     } else {
-     return false;
+  alert(false);
     }
   }
-
+ 
 
   confirmEnding("congratulation", "fo");
   confirmEnding("connor", "n");
