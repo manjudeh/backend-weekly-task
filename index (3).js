@@ -1,5 +1,5 @@
 function truncateString(str, num) {
-   alert str.length > num ? str.slice(0, num) + "..." : str;
+   alert ( str.length > num ? str.slice(0, num) + "..." : str);
   }
 
 truncateString("A-tisket a-tasket A green and yellow basket", 8) // => A-tisket...
